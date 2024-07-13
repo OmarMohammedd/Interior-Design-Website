@@ -84,6 +84,9 @@ a {
 }
                                  /* services */
 
+.services {
+  margin-top: -4rem;
+}
 .services h1 {
   color: #1F1F1F;
   font-size: 40px;
@@ -166,7 +169,7 @@ footer {
 
 .input-groupp {
   width: 670px;
-  top: -24px;
+  top: -25px;
   box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   left: 50%;
@@ -201,7 +204,8 @@ footer {
 }
 .customers {
   position: relative;
-  margin-bottom: 20rem !important;
+  margin-bottom: 19rem !important;
+  /* height: auto; */
 }
 .customers_right h2 {
   color: #1F1F1F;
@@ -250,7 +254,7 @@ footer {
                                  /* subscribe */
 .subscribe {
   margin-top: -15rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 .subscribe h2 {
   color: #1F1F1F;
@@ -267,24 +271,30 @@ footer {
   margin: auto;
 }
                                       /* responsive */
-@media screen and (max-width: 1200px) {
-.customers .button_customers {
-  flex-direction: column;
-  left: auto;
-  right: 122px;
-  top: 170px;
-}
+  @media screen and (max-width: 1200px) {
+  .customers .button_customers {
+    flex-direction: column;
+    left: auto;
+    right: 122px;
+    top: 170px;
+  }
 .subscribe {
   margin-top: -2rem;
+}
+.services {
+  margin-top: 4rem;
 }
 .customers {
   margin-bottom: 37rem !important;
 }
-.NavbarAndHeader {
-  height: auto !important;
-}
+  /* .NavbarAndHeader {
+    height: auto !important;
+  } */
 }
 @media screen and (max-width: 992px) {
+  .header {
+    height: auto;
+  }
   .input-groupp {
     width: 400px;
     top: -25px;
@@ -340,8 +350,11 @@ footer {
     margin-top: 1rem !important;
   }
   .services {
-    margin-top: 45rem;
+    margin-top: 3rem;
   }
+  /* .services {
+    margin-top: 45rem;
+  } */
   .parent_card {
     flex-wrap: wrap;
   }
@@ -354,16 +367,16 @@ footer {
     width: 100%;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 525px) {
+/* @media screen and (min-width: 440px) and (max-width: 525px) {
   .services {
     margin-top: 40rem !important;
   }
-}
+} */
 
 @media screen and (max-width: 440px) {
-  .services {
+  /* .services {
     margin-top: 34rem !important;
-  }
+  } */
   .input-groupp {
     width: 350px;
     top: -25px;
@@ -373,16 +386,16 @@ footer {
     padding: 0.5rem 1rem !important;
   }
 }
-@media screen and (max-width: 768px) {
-  .customers {
-    position: static;
-  }
-  .customers_right {
-     position: relative;
-  }
-  .customers .button_customers {
-    top: 90px;
-  }
+  @media screen and (max-width: 768px) {
+    .customers {
+      position: static;
+    }
+    .customers_right {
+      position: relative;
+    }
+    .customers .button_customers {
+      top: 90px;
+    }
   .button_customers .left ,
 .button_customers .right {
  width: 320px;
@@ -403,9 +416,9 @@ footer {
   .header p {
     width: 100%;
   }
-  .services {
+  /* .services {
     margin-top: 44rem;
-  }
+  } */
   .designing_right .paragraph {
     width: 100%;
   }
@@ -456,3 +469,6 @@ footer {
 #scrollToTopBtn:hover {
   background-color: #0056b3;
 }
+
+
+
