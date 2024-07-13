@@ -205,7 +205,7 @@ footer {
 .customers {
   position: relative;
   margin-bottom: 19rem !important;
-  /* height: auto; */
+  max-width: 100%;
 }
 .customers_right h2 {
   color: #1F1F1F;
@@ -320,8 +320,14 @@ footer {
   }
   .customers .button_customers {
     top: 760px;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
+    /* width: fit-content;
+    margin: auto;
+     */
+    left: 5px;
+    right:5px;
+    overflow-x: hidden;
   }
   .customers {
     margin-bottom: 60rem !important;
@@ -469,6 +475,3 @@ footer {
 #scrollToTopBtn:hover {
   background-color: #0056b3;
 }
-
-
-
