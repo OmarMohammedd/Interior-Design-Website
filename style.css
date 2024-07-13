@@ -287,9 +287,6 @@ footer {
 .customers {
   margin-bottom: 37rem !important;
 }
-  /* .NavbarAndHeader {
-    height: auto !important;
-  } */
 }
 @media screen and (max-width: 992px) {
   .header {
@@ -320,11 +317,6 @@ footer {
   }
   .customers .button_customers {
     top: 760px;
-    /* left: 50%;
-    transform: translateX(-50%); */
-    /* width: fit-content;
-    margin: auto;
-     */
     left: 5px;
     right:5px;
     overflow-x: hidden;
@@ -358,9 +350,6 @@ footer {
   .services {
     margin-top: 3rem;
   }
-  /* .services {
-    margin-top: 45rem;
-  } */
   .parent_card {
     flex-wrap: wrap;
   }
@@ -373,16 +362,7 @@ footer {
     width: 100%;
   }
 }
-/* @media screen and (min-width: 440px) and (max-width: 525px) {
-  .services {
-    margin-top: 40rem !important;
-  }
-} */
-
 @media screen and (max-width: 440px) {
-  /* .services {
-    margin-top: 34rem !important;
-  } */
   .input-groupp {
     width: 350px;
     top: -25px;
@@ -422,9 +402,6 @@ footer {
   .header p {
     width: 100%;
   }
-  /* .services {
-    margin-top: 44rem;
-  } */
   .designing_right .paragraph {
     width: 100%;
   }
@@ -455,9 +432,6 @@ footer {
     width: auto;
   }
 }
-
-
-
 #scrollToTopBtn {
   display: none; 
   position: fixed;
