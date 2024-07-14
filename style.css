@@ -26,6 +26,9 @@ a {
 .navbar img {
   max-width: 100%;
 }
+/* a.nav-link.text-dark {
+  text-align: center !important;
+} */
                                      /* header */
 .header_right {
   width: 600px;
@@ -275,6 +278,11 @@ footer {
   }
 }
 @media screen and (max-width: 992px) {
+  .navbar button.btn {
+    /* width: 100%;
+    margin: auto; */
+    margin-left: -0.3rem !important;
+  }
   .header {
     height: auto;
   }
@@ -292,9 +300,8 @@ footer {
     margin-top: 3.3rem;
   }
   .navbar .collapse {
-    z-index: 999;
-    background: #fff;
-    text-align: center;
+    z-index: 999 !important;
+    background: #fff !important;
     padding-bottom: 1rem;
   }
   .designing_left {
